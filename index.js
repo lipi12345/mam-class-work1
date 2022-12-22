@@ -11,13 +11,14 @@
 // finalResult();
 //lipi8
 
-let first = Number(prompt("Enter your first number"));
-let second = Number(prompt("Enter your secound number"));
-let third = Number(prompt("Enter your third number"));
+const first = Number(prompt("Enter your first number"));
+const second = Number(prompt("Enter your secound number"));
+const third = Number(prompt("Enter your third number"));
 function resultFun(num1, num2, num3) {
   document.write("<br/>" + "Enter Addition" + (num1 + num2 + num3));
   document.write("<br/>" + "Enter subtraction" + (num1 - num2 - num3));
   document.write("<br/>" + "Enter Multiplication" + num1 * num2 * num3);
+  document.write("<br/>" + "Enter Division" + num1 / num2 / num3);
 }
 
 resultFun(first, second, third);
