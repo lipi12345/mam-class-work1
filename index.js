@@ -9,7 +9,7 @@
 //   document.write("Division is" + num1 / num2 / num3 + "<br />");
 // }
 // finalResult();
-//lipi8
+//lipi88
 
 const first = Number(prompt("Enter your first number"));
 const second = Number(prompt("Enter your secound number"));
